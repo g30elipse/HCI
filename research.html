@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HCI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- GOOGLE FONTS and FONT AWESOME icons -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Slabo+27px|Inconsola" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <div class="container-fluid" id="heroC">
+        <div class="row">
+    
+        <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">HCI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="menu" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="./academics.html">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./people.html">People</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./research.html">Research</a>
+                </li>          
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+<!--              <button class="btn btn-outline-primary" type="submit"><a href="#">IIITA</a></button>-->
+          </div>
+        </div>
+        </nav>
+        </div>
+        
+        <div class="container" id="lab">
+            <div class="row">
+                <h1>HCI Labs</h1>
+                <span class="hr"></span>
+            </div>
+        <div class="row" id="silp">
+            <div class="col-md-5 c">
+                <div class="img" id="i1"><div class="caption">6D Controller</div></div>
+                <div class="img" id="i2"><div class="caption">Head Mounted Display</div></div>
+                <div class="img" id="i3"><div class="caption">Data Gloves</div></div>
+                <div class="img" id="i4"><div class="caption">Eye Tracker</div></div>
+            </div>
+            <div class="col-md-7">
+                <h3>Speech Image Language Processing Lab</h3><hr>
+                <span class="hr"></span>
+                <p>This HCI lab specially deals with most of the signal processing. Signals may of of any type, such as Image, Video, Vision, Speech, EEG, ECG etc...</p>
+                
+                <h5>The lab is equipped with various state of the art equipments such as:</h5>
+                <ul>
+                <li>6D Controller</li> 
+                <li>Data Gloves</li>
+                <li>Eye Tracker</li>
+                <li>Head Mounted Display</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row" id="gvc">
+            <div class="row">
+                <div class="col c">
+                    <img src="images/nvd.png">                
+                </div>
+            </div>
+<!--            <div class="row">-->
+            <div class="col">
+                <h3 class="c">Graphics and Visual Computing Lab</h3>
+                <span class="hr"></span>
+                <p>This Lab is equiped with high end graphics processing systems.</p>
+                <h5>CUDA Systems</h5>
+                <p>CUDA or Compute Unified Device Architecture is a parallel computing architecture developed by Nvidia. CUDA is the computing engine in Nvidia graphics processing units (GPUs) that is accessible to software developers through variants of industry standard programming languages. Programmers use 'C for CUDA' (C with Nvidia extensions and certain restrictions), compiled through a PathScale Open64 C compiler, to code algorithms for execution on the GPU. CUDA architecture shares a range of computational interfaces with two competitors -the Khronos Group's OpenCL and Microsoft's DirectCompute.</p>
+                <hr>
+                <h5>CUDA has several advantages over traditional GPUs using graphics APIs</h5>
+                <ul>
+                <li>Scattered reads</li> 
+                <li>Shared memory</li>
+                <li>Faster downloads and readbacks to and from the GPU</li>
+                <li>Full support for integer and bitwise operations, including integer texture lookups</li>
+                </ul>
+            </div>
+<!--            </div>-->
+        </div>
+        </div>
+        
+        <div class="container" id="projects">
+            <div class="row">
+                <div class="col"><h1>Projects</h1></div>
+                <span class="hr"></span>
+            </div>
+            <div class="row" id="plist">
+                <div class="pro">
+                    <h5>Image Forgery Detection</h5>
+                    <p>In the current era of technology and multimedia we find ourselves surrounded by Digital Images. Considering the rapid advancement in Image Processing it has been very easy to manipulate any digital image using sophisticated tools like PhotoShop, CorelDraw etc. This proposed thesis shall provide some methods and algorithms that will attempt to restore authenticity and integrity in digital images.</p>
+                </div>
+                <div class="pro">
+                    <h5>Advance High Level Content Based Image Retrieval system for Logo and Trademark Distinctivity</h5>
+                    <p>Find out similar deceptive Trademarks from a database on the basis of their colour, texture, shape, spatial features and text within them.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>De-skewing, De-warping and De-noising of perspectively distorted documents: A comparision between Geometrical Methods and Machine Learning Approach</h5>
+                    <p>The main research directions in camera captured document analysis is to deal with the page curl and perspective distortions. Current document analysis and optical character recognition systems do not expect these types of artifacts and show poor performance ,when applied directly to camera-captured documents. The goal of text de-skewing is to re-orient the skewed text lines and the goal of text de-warping is to flatten a camera-captured document such that it becomes readable by currently OCR systems. We will use Support Vector Machine and Neural Network for our Machine Learning Approach.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>User state modeling using EEG signals</h5>
+                    <p>Interface is the most crucial part of any system. Traditionally the evaluation of interface is done by surveys or think-aloud method which don't give valuable insight into the user's changing experience throughout the task. The motive is to develop objective technique to measure user states such as workload, emotion and fatigue in real time using EEG signals of UI evaluation.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Facial expression recognition from Audio-Visual information using Wavelet and Curvelet transform</h5>
+                    <p>Facial expression recognition is an interesting topic of research. This project proposes the combined use of Wavelet Transform and Digital Curvelet Transform for recognition of facial expression from video.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Computer Vision based Virtual keyboard (Projected or Generic)</h5>
+                    <p>A projected visible virtual keyboard that can be touched on any surface and a video screen. The webcam watches finger movements using "Computer Vision" and translates them into keystrokes in the device. The proposed system will thus represent a ultracompact, portable computer.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Text Detection and Localization in Natural Scene Images</h5>
+                    <p>Text detection and analysis from natural scene images using hybrid techniques of signal and image processing.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Digital Image Forgery Detection</h5>
+                    <p>Three types of image forgery detection was done: 1. Image Composting, 2. Image Enhancement, 3. Copy Move Forgery.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Lesion detection in eye due Diabetic Retinopathy</h5>
+                    <p>This system, with the help of morphological image processing techniques, we are trying to detect lesions in two categories i.e. dark and bright lesions</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Content based Image Retrieval using Trademark Database</h5>
+                    <p>Content based image retrieval (CBIR) has been an active area of research due to its wide range of applicability and the major reduction in effort that it provides. This work focuses on the use of CBIR systems in the field of intellectual property rights. Preventing trademark infringement was the main objective of this project.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Graph Based Energy Efficient Data Gathering in Wireless Sensor Networks</h5>
+                    <p>Data gathering plays an important role in several applications of wireless sensor network. Better protocols are always needed to improve the lifetime of the network. This thesis analyses the existing approaches and proposes a Greedy Multilevel Clustering Algorithm (GMCA) of data collection which makes a dynamic path for multiple nodes to connect to the base station (BS) in a Wireless Sensor Network (WSN) which results in increment of the lifetime of the WSN.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>A new multilinear discriminant analysis method for face recognition with fewer features under illumination and expression variations</h5>
+                    <p>This project makes use of fewer and effective features than traditional algorithms without relegation in recognition accuracy</p>
+                </div>
+                
+                
+                <div class="pro">
+                    <h5>Human action recognition in video stream</h5>
+                    <p>This project focused upon recognizing human actions such as walking ,running, jumping, bending etc. A scalable algorithm. It uses interest point detection for achieving the same.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Question Answering System(Open Domain)</h5>
+                    <p>This system fetches the answer from huge database on the bases of syntactic and semantic similarity.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Hand Gesture Recognition using Data-Glove</h5>
+                    <p>This thesis work, a real-time Human-Computer Interaction system based on the DG-Tech VHand 2.0 data glove(Bluetooth version) has been designed. Recognition of hand gesture accurately and successfully using data glove has been done.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Detection of Crop Diseases in Fruits and Vegetables using Plant Leaf Image Dataset</h5>
+                    <p>This system provides a robust Automatic Plant Leaf Identification and Disease Detection Biometric System which is capable to recognize plant leaves by the visual characteristics of plant leaf.</p>
+                </div>
+                
+                
+                
+                
+                <!-- current -->
+                <div class="pro">
+                    <h5>A Hybrid of Incremental Technique derived from PLSA and Standard Language Modelling Techniques for Auto correction/Word Prediction Applications</h5>
+                    <p>This work focuses on the development of an improved algorithm based on Probabilistic Latent Semantic Analysis and existing Language Modelling technique(s) that facilitates language modelling applications such as Auto correction and Word Prediction.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Finding Visual attention of images using hierarchal segmentation approach</h5>
+                    <p>Finding visually attractive region in an image is one of the interesting research areas due to its real time applications. Generally we take the images to capture objects (visually attractive region). In the proposed approach regards the important object detection in an image. The proposed algorithm contains multiple phases: preparing the super-pixels using ensemble decision trees to estimate the adjacency probability between the regions, and forming the saliency vector (visually attractive region) using the learned weights through hierarchal inheritance approach.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Background Subtraction using GPU</h5>
+                    <p>Background subtraction (BGS) is a basic task in many computer vision applications, where we want to segment out the foreground objects from the background of a video. In the "easiest" case when the camera is static, the background is often defined as the pixels that stay relatively constant, and the foreground is everything else moving around. Since BGS is often used as a pre-processing step, it is preferred to be as fast as possible.</p>
+                </div>
+                
+                <div class="pro">
+                    <h5>Open Domain Question Answering System for Wh-Type Questions</h5>
+                    <p>Project is related to devlelopment of system that will answer questions of Wh-Type ( that are "What","Where","Which",etc) of any domain. The searching part is done using search engine and after that relevant information is fetched from top 5 url returned by the search engine.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-1 logo"><img src="images/logo.png"></div>
+            <div class="col-md-11 flinks">
+                <a href="./index.html"><i class="fas fa-home"></i></a> |
+                <a href="https://www.iiita.ac.in" target="_blank">IIITA</a> |
+                <a href="./contact.html"><i class="fas fa-envelope"></i></a><br>
+                <h4>Indian Institute of Information Technology, Allahabad</h4>
+                   <h5> Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
+                </h5>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+</body>
+</html>

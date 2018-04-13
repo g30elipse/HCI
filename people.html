@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HCI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="./js/jquery.min.js"></script>
+
+    <!-- GOOGLE FONTS and FONT AWESOME icons -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Slabo+27px|Inconsola|Montserrat" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <div class="container-fluid" id="heroB">
+        <div class="row">
+    
+        <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">HCI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="menu" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="./academics.html">Academics</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./people.html">People</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./research.html">Research</a>
+                </li>          
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+<!--              <button class="btn btn-outline-primary" type="submit"><a href="#">IIITA</a></button>-->
+          </div>
+        </div>
+        </nav>
+        </div>
+        
+        
+        <div class="row">
+            <h1>Faculty</h1><br>
+            <span class="hr"></span>
+            <div class="container-fluid" id="faculty">
+                <div class="row">
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. G. C. Nandi</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Soft Computing, Artificial Intelligence, Robotics and Industrial Automation, Computer Control Systems, Humanoid robots, Machine vision and processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> gcnandi&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. R. C. Tripathi</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Intellectual Property Rights, Patents, Copyrights, Trademarks and designs, Enterprise Resource Planning, Data &amp; Network Security, Digital Signal Processing, Medical Image Processing, Information Retrieval.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> rct&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Manish Kumar</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Database Management Systems, Distributed Databases, Data Mining and Warehousing, Mobile Data Management, Digital Signal Processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> manishk&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Ashutosh Mishra</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Biomedical Signals &amp; Processing, Learning Machines Distributed Computation and Modeling/Simulation.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> am&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Neetesh Purohit</h5>
+                        <div class="ri"><span class="r"><i class="fas fa-pencil-alt"></i> Research Interest</span>Information and Communication Technologies, Wireless Networks and Digital Signal Processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1>Post Graduates</h1><br>
+            <span class="hr"></span>
+            <div class="container">
+            <div class="btn-group btn-group-toggle" data-toggle="buttons" id="toggle">
+              <label class="btn active">
+                <input type="radio" name="options" id="b2012" autocomplete="off" checked> 2012
+              </label>
+              <label class="btn">
+                <input type="radio" name="options" id="b2013" autocomplete="off"> 2013
+              </label>
+              <label class="btn">
+                <input type="radio" name="options" id="b2014" autocomplete="off"> 2014
+                </label>
+                <label class="btn">
+                <input type="radio" name="options" id="b2015" autocomplete="off"> 2015
+                </label>
+                <label class="btn">
+                <input type="radio" name="options" id="b2016" autocomplete="off"> 2016
+                </label>
+                <label class="btn">
+                <input type="radio" name="options" id="b2017" autocomplete="off"> 2017
+                </label>
+            </div>
+            </div>
+            
+            
+            <!-- Batch 2012 -->
+            <div class="container-fluid" id="p2012">
+            <div class="container-fluid pg">
+                <div class="row">
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012001.jpg">
+                        <h5>Jyoti Johri</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2012001&#64;iiita.ac.in</div>
+                    </div>
+                    
+                
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012002.jpg">
+                        <h5>Tushar Dhaka</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>                        
+                        <div class="mail"><i class="fas fa-envelope"></i> gcnandi&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012003.jpg">
+                        <h5>Shekhar Singh</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> rct&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012004.jpg">
+                        <h5>Saumya Srivastava</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> am&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012005.jpg">
+                        <h5>Pallav Pant</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012006.jpg">
+                        <h5>Mohit Srivastava</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012008.jpg">
+                        <h5>Pravin Nagar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012009.jpg">
+                        <h5>Prateek Singh</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012010.jpg">
+                        <h5>Jigyasa Devi</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012011.jpg">
+                        <h5>Varsha Dixit</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012012.jpg">
+                        <h5>Abhishek Kumar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012013.jpg">
+                        <h5>Sudhakar Mishra</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2012014.jpg">
+                        <h5>Rajendra Raikar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Computational Intelligence, Operating System, Computer System Architecture, Computer Network</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            
+            <!-- Batch 2013 -->
+            <div class="container-fluid hidden" id="p2013">
+            <div class="container-fluid pg">
+                <div class="row">
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013001.jpg">
+                        <h5>Gaurav Sharma</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, SQL, HQL, MapReduce, Unix Shell, SAS, Hadoop, Spark, Matlab, QT</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision processing, Machine Learning, Big Data, Theory of Computation, Design and Analysis of Algorithms, Computer Networks </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013001&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013002.jpg">
+                        <h5>Tripti Sonkar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, SQL, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Information Retrieval, Virtual Reality</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013002&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013004.jpg">
+                        <h5>Deepak Kumar Singh</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, C#, Java, OpenCV, OpenGL, PHP, JavaScript, MySql, Oracle, Matlab, Netbeans, Visual Studio, Dreamweaver.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Database Management System, Data Analysis and Algorithms, Operating Systems, Compiler Design, Theory Of Computation, Image Processing & Computer Vision </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013004&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013005.jpg">
+                        <h5>Sisir Kumar Sarkar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, JavaScript, HTML, SQL.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision processing, Advanced Graphics</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013005&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013007.jpg">
+                        <h5>Sharanjeet Kaur Sandhu</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Java, Visual Studio, SQL, C#, OpenCV.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision processing, Design and Analysis of Algorithms, Data Structures, Operating Systems.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013007&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013008.jpg">
+                        <h5>Mukul Anand Bisherwal</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C/C++, MATLAB.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image &amp; Vision Processing, Information Retrieval, Design and Analysis of Algorithms, DBMS.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013008&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013009.jpg">
+                        <h5>Mukesh Kharga</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Java, SQL, Visual Studio, CUDA.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Database Management System, Operating Systems, Image Processing, Information Retrieval, Distributed Systems, Theory of Computation, Augmented Reality</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013009&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013010.jpg">
+                        <h5>Rajeev Gupta</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Java, SQL Server, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Design and Analysis of Algorithms, Image and Vision Processing, DBMS , Theory of Computation, Advanced Computer Graphics and Animation, Computational Intelligence, Operating Systems</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013010&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013012.jpg">
+                        <h5>Sourodeep Bhattacharya</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Python, PHP, MySQL, Java, PL/SQL, Matlab, Oracle DB.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Algorithms, Programming, Logic and Mathematics, Finance, Image and Vision Processing, Machine Learning, Database Systems</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013012&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013013.jpg">
+                        <h5>Garima Agarwal</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Matlab, Java(J2EE), Apache Tomcat, SQL Server.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Machine Learning, Image Processing, Algorithms</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013013&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013010.jpg">
+                        <h5>Duddela Sai Prashanth</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Matlab, PHP.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision Processing, Soft Computing, Information Security.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013014&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2013015.jpg">
+                        <h5>Mohini Tiwari</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, MATLAB, HTML, WebGL, OpenGL.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image Processing, Algorithms, Data Structures, Operating Systems</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2013015&#64;iiita.ac.in</div>
+                    </div>
+                    
+                                       
+                </div>
+            </div>
+            </div>
+            
+            
+            <!-- 2014 -->
+            <div class="container-fluid hidden" id="p2014">
+            <div class="container-fluid pg">
+                <div class="row">
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014001.jpg">
+                        <h5>Unmesh Shukla</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Java, C#, OpenGL, Matlab, WebGL, Web Technologies, UNIX Shell Scripting.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Machine Learning, Computer Vision, Advanced Graphics and Animation, Design and Analysis of Algorithms, Virtual Reality, Cognition &amp; Cognitive Process Modeling, Interaction Design, BCI, NLP</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014001&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014002.jpg">
+                        <h5>Chandra Kant Pushkar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision processing, Data Structures, Algorithms, Image and Vision Processing.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014002&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014003.jpg">
+                        <h5>Thoorpu Karnakar Reddy</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, Android, MySQL, JavaScript, OpenGL.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision Processing, Algorithms, Theory of Computation, Distributed Systems, Gaming, Data Structures.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014003&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014004.jpg">
+                        <h5>Kaustubh Gupta</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Java, Visual Basic, OpenGL, Oracle 10g, Blender, Visual Studio, Matlab, Hadoop, CUDA, Bash Shell Script, NetBeans.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Big Data Analysis, Machine Learning, Cognitive Science, Image and Vision Processing, Computer Networks, Algorithms.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014004&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014005.jpg">
+                        <h5>Rajnish Kumar Ranjan</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, Oracle 10g.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision Processing, Machine Learning, Data Mining, Theory of Computation.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014005&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/ihc2014006.jpg">
+                        <h5>Praveen Gudivaka</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Java, MySQL, Bash Shell Script, OpenGL, Eclipse, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision Processing, Algorithms, Data Structure, Advanced Graphics and Animation, Operating Systems, Artificial Intelligence, Information Security.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2014006&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/phc2014002.jpg">
+                        <h5>Rohit Mishra</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Matlab, OpenGL, OpenCV, Java, Visual Studio, NetBeans, Bash Shell Script.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Theory of Computation, Image and Vision Processing, Machine Learning, Natural Language Processing, Advanced Graphics and Animation , Data Structure, Pattern Recognition.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> phc2014002&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/phc2014001.jpg">
+                        <h5>Sumit Kumar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Oracle.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Theory of Computation, Machine Learning, Advanced Algorithms</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> phc2014001&#64;iiita.ac.in</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            
+            
+            <!-- 2015 -->
+            <div class="container-fluid hidden" id="p2015">
+            <div class="container-fluid pg">
+                <div class="row">
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Vipul.jpg">
+                        <h5>Vipul Vishal</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, C#, ASP.NET, SharePoint 2010, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Machine Learning ,Cognitive Science, Image Processing, Data Structure.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015001&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Apurva.jpg">
+                        <h5>Apurva Srivastva</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, Unix Shell Script, VB.Net, ASP.Net, OpenGL, Web Technologies, MATLAB, MySQL, VCS.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Machine Learning, Computer Vision, Image Processing, Natural Language Processing, Advanced Graphics and Animation, Operating System, Data Structure and Algorithms,Interaction Design.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015002&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Puja.jpg">
+                        <h5>Puja Srivastva</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, Matlab, RSA(Rational Software Architecture), Raptor, MySQL.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Immersive applications, computational intelligence, soft computing, natural language processing, cognitive sciences.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015003&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Shilpa.jpg">
+                        <h5>Shilpa Yadav</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++, OpenGL, Matlab, Web Technologies, NetBeans, Oracle 10g.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision Processing, Machine Learning, Advanced Graphics and Animation, Cognition &amp; Cognitive Process Modeling, Interaction Design.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015004&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Vipin.jpg">
+                        <h5>Vipin Patel</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++,OpenGL, Matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Analysis and Design of Algorithm, Theory of computation, Data Structure, Image and Vision Processing, Principle of Interaction Design.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015005&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Kush.png">
+                        <h5>Kush Kumar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C++, Data Structures, Algorithm Design, harfbuzz, harfbuzz-ng, odin, eclipse, xcode, gdb, perforce, reviewboard, adb, eigen, matlab.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">C++14, Data Structures, Algorithm Design Techniques, Object-oriented design, Machine Learning.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015006&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Ashish.jpg">
+                        <h5>Ashish Kumar</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C, C++,OpenGL, Matlab, Xilinx, Assembly level programming on mp 8085, mc8051, ARM processor, SQLite.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Image and Vision processing, VHDL , FPGAs.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015007&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Shiluti.jpg">
+                        <h5>Shiluti Tsuhah</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">C , MATLAB , OpenGl.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Data Structures, Automata , Computational Intelligence, Computer Graphics , DBMS.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> ihc2015008&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="https://hci.iiita.ac.in/images/Priya.jpg">
+                        <h5>Priya Shukla</h5>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">skills<br><i class="fas fa-star"></i></div>
+                            <div class="col col-md-10 a">ERP,Microsoft Technologies and SQL SERVER.</div>
+                        </div>
+                        <div class="row skills">
+                            <div class="col col-md-2 attributes">Interests<br><i class="fas fa-pencil-alt"></i></div>
+                            <div class="col col-md-10 a">Programming and Implementation of S/W.</div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> phc2015001&#64;iiita.ac.in</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            
+            
+            <!-- 2016 -->
+            <div class="container-fluid hidden" id="p2016">
+            <div class="container-fluid pg">
+                <div class="row">
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Skill</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Interest</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Skill</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Interest</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Skill</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Interest</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="row">
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Skill</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="container-fluid t">
+                        <div class="row">
+                        <div class="col col-md-2 attributes">Interest</div>
+                        <div class="col col-md-10 a">Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        </div>
+                        </div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            </div>
+            
+            
+            <!-- 2017 -->
+            <div class="container-fluid hidden" id="p2017">
+            <div class="container-fluid pg">
+                <div class="row">
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. Anupam Agarwal</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Computer Graphics and Virtual Environments, Computer Vision and Satellite Image Processing, Artificial Neural Networks, Gesture Recognition, Fuzzy Logic and Softcomputing, Computational Geometry.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> anupam&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. G. C. Nandi</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Soft Computing, Artificial Intelligence, Robotics and Industrial Automation, Computer Control Systems, Humanoid robots, Machine vision and processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> gcnandi&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Prof. R. C. Tripathi</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Intellectual Property Rights, Patents, Copyrights, Trademarks and designs, Enterprise Resource Planning, Data &amp; Network Security, Digital Signal Processing, Medical Image Processing, Information Retrieval.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> rct&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Manish Kumar</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Database Management Systems, Distributed Databases, Data Mining and Warehousing, Mobile Data Management, Digital Signal Processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> manishk&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Ashutosh Mishra</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Biomedical Signals &amp; Processing, Learning Machines Distributed Computation and Modeling/Simulation.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> am&#64;iiita.ac.in</div>
+                    </div>
+                    <div class="col card">
+                        <img src="images/1.jpg">
+                        <h5>Dr. Neetesh Purohit</h5>
+                        <div class="ri"><span class="r">Research Interest</span>Information and Communication Technologies, Wireless Networks and Digital Signal Processing.</div>
+                        <div class="mail"><i class="fas fa-envelope"></i> np&#64;iiita.ac.in</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-1 logo"><img src="images/logo.png"></div>
+            <div class="col-md-11 flinks">
+                <a href="./index.html"><i class="fas fa-home"></i></a> |
+                <a href="https://www.iiita.ac.in" target="_blank">IIITA</a> |
+                <a href="./contact.html"><i class="fas fa-envelope"></i></a><br>
+                <h4>Indian Institute of Information Technology, Allahabad</h4>
+                   <h5> Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
+                </h5>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        
+        $(document).ready(function() {
+            
+            var batches = ["2012", "2013", "2014", "2015", "2016", "2017"];
+            var len = batches.length;
+            $("label.btn").on("click", function() {
+                var id = '#p' + $.trim($(this).text());
+                var to_hide = [];
+                
+                for (var i=0; i<len; i++) {
+                    if (batches[i] === id) {
+                        continue;
+                    }
+                    var c = '#p' + batches[i];
+                    $(c).addClass('hidden');
+                }
+                $(id).removeClass('hidden');
+            });
+            
+            
+        });
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HCI</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="./js/jquery.min.js"></script>
+   
+    <!-- GOOGLE FONTS and FONT AWESOME icons -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Slabo+27px|Inconsola" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    
+    
+    <script>
+        $(document).ready(function(){
+            
+            $(".fbtn").on("click", function(){
+                
+                var txt = $(".fbtn").text();
+                $(".hcard").slideToggle(250);
+                if (txt === "MORE") {
+                    $(".fbtn").text("LESS");
+                } else {
+                    $(".fbtn").text("MORE");
+                }
+            });
+            
+        });
+    </script>
+    
+</head>
+<body>
+    
+    
+    <div class="container-fluid" id="hero">
+        <div class="row">
+    
+        <nav class="navbar fixed-top navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">HCI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="menu" onclick="myFunction(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="./academics.html">Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./people.html">People</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./research.html">Research</a>
+                </li>          
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+<!--              <button class="btn btn-outline-primary" type="submit"><a href="#">IIITA</a></button>-->
+          </div>
+        </div>
+        </nav>
+        
+        <div class="container intro">
+            <div class="row">
+                <div class="col-md-6 img">
+                </div>
+                <div class="col-md-6">
+                    <div class="row txt">
+                        <h2 class="col-sm-12">Human computer interaction</h2>
+                        <span class="hr"></span>
+                        <p class="col-sm-12">Human–Computer Interaction (commonly referred to as HCI) researches the design and use of computer technology, focused on the interfaces between people (users) and computers. Researchers in the field of HCI both observe the ways in which humans interact with computers and design technologies that let humans interact with computers in novel ways. As a field of research, human-computer interaction is situated at the intersection of computer science, behavioral sciences, design, media studies, and several other fields of study.</p>
+                    <span class="col"><a href="https://www.wikiwand.com/en/Human%E2%80%93computer_interaction" target="_blank"><i class="fab fa-wikipedia-w"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                </div>
+
+    </div>
+    <div class="container-fluid" id="iiita">
+    <div class="container card">
+        <div class="row">
+            <div class="col-md-12 img">
+                <!-- IIITA IMAGE -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2>Indian Institute of Information Technology, Allahabad</h2>
+            </div>
+        </div>
+        <div class="row"><span class="hr"></span></div>
+        <div class="row">
+            <p class="col">
+                Indian Institute of Information Technology, Allahabad is the first and only institute in India to impart the post graduation specialization course in Human Computer Interaction (HCI) that was started in 2007. We are a highly specialized group of faculty and students dedicated to research in computer technology in support of its human facets for enhancing life quality in society. The study targets, understands and creates computer technology that works cohesively with human capabilities, goals, and social environments through interdisciplinary research and education in Information Technology.
+            </p>
+        </div>
+        <a class="btn" href="https://www.iiita.ac.in/" target="_blank">Visit IIITA</a>
+    </div>
+    </div>
+    
+    
+    
+    
+    <div class="container-fluid" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <h1>Frequently Asked Questions &#40;FAQs&#41;</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                    <h5>What is HCI?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        It is an interdisciplinary branch where we study various methodologies of planning and designing the interaction between a human(user) and a computer. On behalf of a computer we study techniques in programming languages, operating systems, computer graphics, image and vision processing along with a number of development environments. On the human side, we learn communication theory, linguistics, social sciences, cognitive psychology etc. 
+                    </p>
+                    </div>
+                    <div class="card">
+                    <h5>Does getting into HCI require strong programming background?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        It is an interdisciplinary branch where we study various methodologies of planning and designing the interaction between a human(user) and a computer. On behalf of a computer we study techniques in programming languages, operating systems, computer graphics, image and vision processing along with a number of development environments. On the human side, we learn communication theory, linguistics, social sciences, cognitive psychology etc. 
+                    </p>
+                    </div>
+                    <div class="card hcard">
+                    <h5>What kind of job I will be expecting after completion of the course?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        Today almost 75% of all the product based software firm have their own User Experience Group. You can join those companies as an User Interaction Designer or Web Developer. If you are a programming geek then you can join a product based software company as a Sotware Developer. If you are sound at resolving usability issues and good at social computing you can be appointed as a front-end developer in a web based company such as a social networking site or a search-engine site. Apart from this if you converge your research towards computer graphics and multimedia then you can go for a multimedia company providing special audio-visual effects. You can also go for a career in animation industry. If you are very much interested in image processing and computer vision then apart from private firms you have opportunities in public sector units like ISRO and DRDO where challenging problems are being solved in this particular field. Another very good option is that if you want to be self-independent then you can go for academics. 
+                    </p>
+                    </div>
+                    <div class="card hcard">
+                    <h5>Should I go for doctorate study in HCI after completion of post-graduation?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        It solely depends on your level of saturation. But it is always recommended to go for higher studies. Cutting-edge reasearch is being carried out abroad in this particular field. More you will get involved more you will explore. 
+                    </p>
+                    </div>
+                    <div class="card hcard">
+                    <h5>Is financial aid available ?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        Yes, financial aid is available in the form of monthly stipend of Rs. 12400.00 provided by MHRD for GATE qualified students only. 
+                    </p>
+                    </div>
+                    <div class="card hcard">
+                    <h5>From where can I obtain other useful information regarding HCI?</h5>
+                        <span class="hr"></span>
+                    <p>
+                        You can find some information relevant to HCI on <a href="http://hcibib.org/" target="_blank">HCI bib</a> 
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="fbtn">MORE</button>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-1 logo"><img src="images/logo.png"></div>
+            <div class="col-md-11 flinks">
+                <a href="./index.html"><i class="fas fa-home"></i></a> |
+                <a href="https://www.iiita.ac.in" target="_blank">IIITA</a> |
+                <a href="./contact.html"><i class="fas fa-envelope"></i></a><br>
+                <h4>Indian Institute of Information Technology, Allahabad</h4>
+                   <h5> Devghat, Jhalwa, Allahabad-211015, U. P. INDIA
+                </h5>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        
+        
+    </script>
+</body>
+</html>
